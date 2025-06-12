@@ -64,19 +64,19 @@ const HomeProductCard = () => {
     <Container className='bg-light mt-4 rounded-sm p-4 mb-4'>
       <h2 className="my-4 text-center">Product List</h2>
       <Row className='p-0'>
-          <Col sm={9} md={9}> 
+          <Col sm={10} md={10}> 
            <Form.Control
               type="text"
-              placeholder="Search..."
+              placeholder="Kata kunci..."
               value={searchTerm}
               onChange={e => setSearchTerm(e.target.value)}
               className="mb-3"
             />
           </Col>
-           <Col sm={1} md={1}>
-            <Button type="button" onClick={resetData} variant='secondary' className='btn-block w-100'>Reset</Button>
+           <Col sm={1} md={1} className='p-0'>
+            <Button type="button" onClick={resetData} variant='secondary' className='btn-block w-100'>Reset</Button> 
           </Col>
-          <Col sm={2} md={2}>
+          <Col sm={1} md={1} >
             <Button type="button" onClick={filteredData} variant='success' className='btn-block w-100'>Cari</Button>
           </Col>
       </Row>
