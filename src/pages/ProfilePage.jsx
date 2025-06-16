@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ProfileLayout from '../layouts/Profilelayout';
 import { Container, Row, Col, Form, Button, Card } from 'react-bootstrap';
 import Swal from 'sweetalert2';
+import Footer from '../components/Footer';
 
 const ProfilePage = () => {
   const [profileData, setProfileData] = useState({

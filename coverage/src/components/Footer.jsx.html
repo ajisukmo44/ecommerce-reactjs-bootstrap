@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for src/layouts/HomeLayout.jsx</title>
+    <title>Code coverage report for src/components/Footer.jsx</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../prettify.css" />
     <link rel="stylesheet" href="../../base.css" />
@@ -19,13 +19,13 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../index.html">All files</a> / <a href="index.html">src/layouts</a> HomeLayout.jsx</h1>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">src/components</a> Footer.jsx</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">0% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>0/19</span>
+                <span class='fraction'>0/11</span>
             </div>
         
             
@@ -46,7 +46,7 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">0% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>0/19</span>
+                <span class='fraction'>0/11</span>
             </div>
         
             
@@ -78,23 +78,9 @@
 <a name='L13'></a><a href='#L13'>13</a>
 <a name='L14'></a><a href='#L14'>14</a>
 <a name='L15'></a><a href='#L15'>15</a>
-<a name='L16'></a><a href='#L16'>16</a>
-<a name='L17'></a><a href='#L17'>17</a>
-<a name='L18'></a><a href='#L18'>18</a>
-<a name='L19'></a><a href='#L19'>19</a>
-<a name='L20'></a><a href='#L20'>20</a>
-<a name='L21'></a><a href='#L21'>21</a>
-<a name='L22'></a><a href='#L22'>22</a>
-<a name='L23'></a><a href='#L23'>23</a></td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<a name='L16'></a><a href='#L16'>16</a></td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -104,32 +90,25 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js"><span class="cstat-no" title="statement not covered" >import React from 'react';<span class="fstat-no" title="function not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ></span></span></span>
-<span class="cstat-no" title="statement not covered" >import HomeHeader from '../components/HomeHeader';</span>
-<span class="cstat-no" title="statement not covered" >import Footer from '../components/Footer';</span>
-<span class="cstat-no" title="statement not covered" >import Container from 'react-bootstrap/Container';</span>
-<span class="cstat-no" title="statement not covered" >import HomeSlider from '../components/HomeSlider';</span>
-<span class="cstat-no" title="statement not covered" >import HomeProductCard from '../components/HomeProductCard';</span>
+<span class="cline-any cline-no">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js"><span class="cstat-no" title="statement not covered" >import { useContext } from "react";<span class="fstat-no" title="function not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ></span></span></span>
+// import { ThemeContext } from "../../context/ThemeContext";
 &nbsp;
-<span class="cstat-no" title="statement not covered" >const HomeLayout = () =&gt; (</span>
-<span class="cstat-no" title="statement not covered" >  &lt;div&gt;</span>
-<span class="cstat-no" title="statement not covered" >    &lt;HomeHeader /&gt;</span>
-<span class="cstat-no" title="statement not covered" >    &lt;br /&gt;</span>
-<span class="cstat-no" title="statement not covered" >      &lt;Container className="justify-content-md-center"&gt;</span>
-            {/* &lt;HomeLayout /&gt; */}
-<span class="cstat-no" title="statement not covered" >            &lt;HomeSlider /&gt;</span>
-<span class="cstat-no" title="statement not covered" >            &lt;div style={{ display: 'flex', flexWrap: 'wrap' }}&gt;</span>
-<span class="cstat-no" title="statement not covered" >            &lt;HomeProductCard /&gt;</span>
-<span class="cstat-no" title="statement not covered" >            &lt;/div&gt;</span>
-<span class="cstat-no" title="statement not covered" >        &lt;/Container&gt;</span>
-<span class="cstat-no" title="statement not covered" >    &lt;Footer/&gt;</span>
-<span class="cstat-no" title="statement not covered" >  &lt;/div&gt;</span>
-);
+<span class="cstat-no" title="statement not covered" >const Footer = () =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >  const { isDark } = false;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >export default HomeLayout</span></pre></td></tr></table></pre>
+<span class="cstat-no" title="statement not covered" >  return (</span>
+<span class="cstat-no" title="statement not covered" >    &lt;footer className={`py-4 mt-auto ${isDark ? "bg-dark text-white" : "bg-light text-dark"}`}&gt;</span>
+<span class="cstat-no" title="statement not covered" >      &lt;div className="container text-center"&gt;</span>
+<span class="cstat-no" title="statement not covered" >        &lt;p className="small mb-0"&gt;E-Commerce @2025&lt;/p&gt;</span>
+<span class="cstat-no" title="statement not covered" >      &lt;/div&gt;</span>
+<span class="cstat-no" title="statement not covered" >    &lt;/footer&gt;</span>
+  );
+<span class="cstat-no" title="statement not covered" >};</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >export default Footer;</span></pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->

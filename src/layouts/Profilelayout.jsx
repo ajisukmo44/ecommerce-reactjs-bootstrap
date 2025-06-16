@@ -3,8 +3,8 @@ import HeaderNav from '../components/HeaderNav';
 
 const ProfileLayout = () => (
   <div>
-      <HeaderNav />
-      <br />
+    <HeaderNav />
+    <br />
   </div>
 );
 

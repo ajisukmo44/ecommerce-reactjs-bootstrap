@@ -8,15 +8,8 @@ import Col from 'react-bootstrap/Col';
 
 
 const HomePage = () => (
-<div>
-    <Container className="justify-content-md-center">
-        <HomeLayout />
-        <HomeSlider />
-        <div style={{ display: 'flex', flexWrap: 'wrap' }}>
-        <HomeProductCard />
-        </div>
-        
-    </Container>
+  <div>
+         <HomeLayout />
   </div>
 );
 
